@@ -1,0 +1,3 @@
+Another extremely important moment that most developers miss is that imported variables behave like constants in the scope of the importing module.
+
+To make the code work, you can export, for example, an object and change its property.
