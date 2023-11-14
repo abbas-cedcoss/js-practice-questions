@@ -1,0 +1,3 @@
+Things you need to take care of:
+- Always returns default value from the reducers.
+- <Provider> has a prop 'store' not value 
