@@ -1,5 +1,6 @@
 import './App.css';
 import { SimpleReduxWrapper } from './components/redux/index';
+import ReduxWithMultipleReducers from './components/reduxmultiplereducers';
 import ReduxWithHooks from './components/reduxwithhooks';
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <SimpleReduxWrapper /> */}
-        <ReduxWithHooks />
+        {/* <ReduxWithHooks /> */}
+        <ReduxWithMultipleReducers />
       </header>
     </div>
   );
